@@ -1,0 +1,22 @@
+name: dart_course_console_application
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/PQPMath3ws/dart_course_console_application
+
+environment:
+  sdk: ^3.0.5
+
+# Add regular dependencies here.
+dependencies:
+  # Added on Exercise 5 (17) of Dart - Advanced Course
+  http: ^1.1.0
+  # Added on Exercise 6 (18) of Dart - Advanced Course
+  mysql_client: ^0.0.27
+  # Added on Exercise 1 (7) of Dart - Intermediate Course
+  path: ^1.8.3
+  # Added on Exercise 4 (16) of Dart - Advanced Course
+  pointycastle: ^3.7.3
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
